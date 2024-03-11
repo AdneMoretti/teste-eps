@@ -1,5 +1,18 @@
-const express = require('express'); 
+import app from '../app'
 
-const app = express(); 
+class UserController {
+    public create_user(req: Request, res: Response): void {
+        CREATE USER
+    }
 
-app.get()
+    public get_user(): User[] {
+        return users; 
+    }
+
+
+    public get_user_by_id(id: number): User {
+        
+    }
+}
+
+export default UserController; 
