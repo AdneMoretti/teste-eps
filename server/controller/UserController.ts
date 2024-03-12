@@ -1,18 +1,14 @@
 import app from '../app'
+import { Request, Response, NextFunction } from 'express'
+import { response, RequestHandler } from 'express'
 
-class UserController {
-    public create_user(req: Request, res: Response): void {
-        CREATE USER
-    }
-
-    public get_user(): User[] {
-        return users; 
-    }
-
-
-    public get_user_by_id(id: number): User {
-        
-    }
+export const createUser = (req: Request, res: Response): RequestHandler => {
+    res.send("create user")
 }
 
-export default UserController; 
+export const getUser = (req: Request, res: Response) : void => {
+    res.send("get user"); 
+}
+// app.use('/', (req: Request, res: Response, next: NextFunction) => {
+//     res.send("Ok");
+// })
