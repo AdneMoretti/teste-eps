@@ -18,4 +18,4 @@ jobs:
       with: 
         githubToken: ${{ secrets.GITHUBTOKEN }} # Token do GitHub
         msgramServiceToken: ${{ secrets.MSGRAMSERVICETOKEN }} # Token para acessar o serviço MeasureSoftGram
-        productName: "teste-eps" # Nome do produto
+        productName: "Produto teste"
