@@ -12,6 +12,6 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-      
+
     - name: Run custom action
       uses: fga-eps-mds/2024.1-MeasureSoftGram-Action@US005-Throughput
