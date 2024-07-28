@@ -16,7 +16,7 @@ jobs:
 
     - name: Run custom action
       uses: fga-eps-mds/2024.1-MeasureSoftGram-Action@US005-Throughput
-        with:
-          githubToken: ${{ secrets.GITHUBTOKEN }} # Token do GitHub
-          msgramServiceToken: ${{ secrets.MSGRAMSERVICETOKEN }} # Token para acessar o serviço MeasureSoftGram
-          productName: "teste-eps" # Nome do produto
+      with:
+        githubToken: ${{ secrets.GITHUBTOKEN }} # Token do GitHub
+        msgramServiceToken: ${{ secrets.MSGRAMSERVICETOKEN }} # Token para acessar o serviço MeasureSoftGram
+        productName: "teste-eps" # Nome do produto
