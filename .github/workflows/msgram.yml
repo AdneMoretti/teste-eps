@@ -13,10 +13,9 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v2
-
-    - name: Run custom action
+    - name: msg
       uses: fga-eps-mds/2024.1-MeasureSoftGram-Action@US005-Throughput
-      with:
+      with: 
         githubToken: ${{ secrets.GITHUBTOKEN }} # Token do GitHub
         msgramServiceToken: ${{ secrets.MSGRAMSERVICETOKEN }} # Token para acessar o serviço MeasureSoftGram
         productName: "teste-eps" # Nome do produto
