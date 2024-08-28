@@ -13,7 +13,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@v2
     - name: msg
-      uses: fga-eps-mds/2024.1-MeasureSoftGram-Action@fix/BUG020
+      uses: fga-eps-mds/2024.1-MeasureSoftGram-Action@fix/context
       with: 
         githubToken: ${{ secrets.GITHUBTOKEN }} # Token do GitHub
         msgramServiceToken: ${{ secrets.MSGRAMSERVICETOKEN }} # Token para acessar o serviço MeasureSoftGram
