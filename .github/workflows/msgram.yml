@@ -17,7 +17,7 @@ jobs:
       with: 
         githubToken: ${{ secrets.GITHUBTOKEN }} # Token do GitHub
         msgramServiceToken: ${{ secrets.MSGRAMSERVICETOKEN }} # Token para acessar o serviço MeasureSoftGram
-        productName: "Produto teste"
+        productName: "Produto Teste"
         workflowName: 'build' # Nome do seu worflow que realiza a build da release
         collectSonarqubeMetrics: true # Flag que determina se métricas do Sonarqube serão persistidas
         collectGithubMetrics: true # Flag que determina se métricas do Github serão persistidas
